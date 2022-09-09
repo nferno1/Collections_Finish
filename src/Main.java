@@ -25,6 +25,21 @@ public class Main {
         }
         catsList.add(new Cat("Кошара"));
 
+        catsList.remove(1);
+
+
+        Cat cat = catsList.get(0);
+
+        System.out.println(cat);
+
+        System.out.println(catsList.indexOf(cat));
+
+        catsList.add(2, cat);
+
+        catsList.set(2, new Cat("Меня сюда вставили"));
+
+
+
 
 
         System.out.println(catsList.toString());
