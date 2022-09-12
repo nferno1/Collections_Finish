@@ -38,11 +38,15 @@ public class Main {
 
         catsList.set(2, new Cat("Меня сюда вставили"));
 
+        catsList.removeAll(Arrays.asList(cat, catsList.get(3)));
+
 
 
 
 
         System.out.println(catsList.toString());
+
+        System.out.println(catsList.size());
 
 
 
