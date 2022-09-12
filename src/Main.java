@@ -71,6 +71,33 @@ public class Main {
         System.out.println(stBio);
 
 
+        //LinkedList on practice
+
+        LinkedList<Car> cars = new LinkedList<>();
+        Car lamborgini = new Car("Lamborgini Countage");
+        Car ferrari = new Car("Ferrari Spider F1");
+        Car buggati = new Car("Buggati Veyron");
+
+
+        cars.addAll(Arrays.asList(lamborgini, ferrari, buggati));
+
+        System.out.println(cars);
+
+        cars.addFirst(new Car("Lotus Elise"));
+        cars.addLast(new Car("Marusia GT"));
+
+
+        System.out.println(cars);
+
+
+        System.out.println(cars.pollFirst());
+        System.out.println(cars);
+
+
+
+
+
+
 
     }
 }
