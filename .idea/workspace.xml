@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c89224-e68d-4d7b-ad7b-7a100a533bec" name="Changes" comment="Cats ArrayList to be continuation">
+    <list default="true" id="a4c89224-e68d-4d7b-ad7b-7a100a533bec" name="Changes" comment="ArrayList example with cats completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662717926048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ArrayList example with cats completed">
+      <created>1662969941353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662969941353</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +119,7 @@
     <MESSAGE value="Cats Example" />
     <MESSAGE value="Cats ArrayList example" />
     <MESSAGE value="Cats ArrayList to be continuation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cats ArrayList to be continuation" />
+    <MESSAGE value="ArrayList example with cats completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList example with cats completed" />
   </component>
 </project>
