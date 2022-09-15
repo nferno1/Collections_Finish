@@ -168,7 +168,25 @@ public class Main {
 
         // Map
 
+       Map<Integer, String> statesMap = new HashMap<>();
+       statesMap.clear();
+       statesMap.put(1, "Germany");
+       statesMap.put(2, "Italy");
+       statesMap.put(3, "Spain");
+       statesMap.put(4, "France");
 
+        System.out.println(statesMap.keySet());
+
+
+        statesMap.remove(2);
+
+
+        for(Map.Entry<Integer, String> item : statesMap.entrySet()){
+            System.out.printf("|Key: %d | value %s \n", item.getKey(), item.getValue());
+        }
+
+       String first = statesMap.get(2);
+        System.out.println(first);
 
 
     }
